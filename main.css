@@ -38,5 +38,47 @@ button {
     transform: scale(0.95);
     
   }
+
+  div#menu {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+
+  }
+
+  header {
+    width: 1500px;
+    background-color: #F1E4D1;
+    display: flex;
+    position: relative;
+    margin:0 auto
+    
+  }
   
-  
+  .logo-imagem{
+    max-width: 100px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    
+  }
+  .container-logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo-texto{
+    margin-left: 10px;
+  }
+
+  .menu li{
+    display: inline-block;
+  }
+  .menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    
+  }
